@@ -33,6 +33,33 @@
     <ClCompile Include="Bomb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PowerUps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BombUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wallpass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detonator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bombpass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flamepass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mystery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MapObjects.h">
@@ -48,6 +75,33 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Bomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BombUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wallpass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detonator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bombpass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flamepass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mystery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
