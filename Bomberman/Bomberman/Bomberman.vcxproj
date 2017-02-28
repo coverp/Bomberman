@@ -85,6 +85,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bomberman.cpp" />
+    <ClCompile Include="BPanel.cpp" />
+    <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="Dezeniman.cpp" />
+    <ClCompile Include="Famicom.cpp" />
+    <ClCompile Include="Goddess.cpp" />
+    <ClCompile Include="Items.cpp" />
+    <ClCompile Include="Nakamoto.cpp" />
+    <ClCompile Include="Special.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BPanel.h" />
+    <ClInclude Include="Cola.h" />
+    <ClInclude Include="Dezeniman.h" />
+    <ClInclude Include="Famicom.h" />
+    <ClInclude Include="Goddess.h" />
+    <ClInclude Include="Items.h" />
+    <ClInclude Include="Nakamoto.h" />
+    <ClInclude Include="Special.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
