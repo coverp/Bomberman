@@ -84,6 +84,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="Ballom.cpp" />
     <ClCompile Include="Bomberman.cpp" />
     <ClCompile Include="Character.cpp" />
@@ -111,6 +112,39 @@
     <ClInclude Include="Pass.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Pontan.h" />
+=======
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Bomberman.cpp" />
+    <ClCompile Include="Bombpass.cpp" />
+    <ClCompile Include="BombUp.cpp" />
+    <ClCompile Include="Detonator.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Flamepass.cpp" />
+    <ClCompile Include="Flames.cpp" />
+    <ClCompile Include="HardBlocks.cpp" />
+    <ClCompile Include="MapObjects.cpp" />
+    <ClCompile Include="Mystery.cpp" />
+    <ClCompile Include="PowerUps.cpp" />
+    <ClCompile Include="SoftBlocks.cpp" />
+    <ClCompile Include="SpeedUp.cpp" />
+    <ClCompile Include="Wallpass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Bombpass.h" />
+    <ClInclude Include="BombUp.h" />
+    <ClInclude Include="Detonator.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="Flamepass.h" />
+    <ClInclude Include="Flames.h" />
+    <ClInclude Include="HardBlocks.h" />
+    <ClInclude Include="MapObjects.h" />
+    <ClInclude Include="Mystery.h" />
+    <ClInclude Include="PowerUps.h" />
+    <ClInclude Include="SoftBlocks.h" />
+    <ClInclude Include="SpeedUp.h" />
+    <ClInclude Include="Wallpass.h" />
+>>>>>>> origin/Class-Framework
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
