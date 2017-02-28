@@ -19,6 +19,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -178,5 +179,7 @@
 >>>>>>> origin/Class-Framework
       <Filter>Header Files</Filter>
     </ClInclude>
+=======
+>>>>>>> parent of 86edf96... Added in Character Classes
   </ItemGroup>
 </Project>

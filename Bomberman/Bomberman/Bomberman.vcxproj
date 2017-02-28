@@ -85,6 +85,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Ballom.cpp" />
     <ClCompile Include="Bomberman.cpp" />
     <ClCompile Include="Character.cpp" />
@@ -145,6 +146,9 @@
     <ClInclude Include="SpeedUp.h" />
     <ClInclude Include="Wallpass.h" />
 >>>>>>> origin/Class-Framework
+=======
+    <ClCompile Include="Bomberman.cpp" />
+>>>>>>> parent of 86edf96... Added in Character Classes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
