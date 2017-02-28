@@ -88,6 +88,7 @@
     <ClCompile Include="BPanel.cpp" />
     <ClCompile Include="Cola.cpp" />
     <ClCompile Include="Dezeniman.cpp" />
+    <ClCompile Include="Explosion.cpp" />
     <ClCompile Include="Famicom.cpp" />
     <ClCompile Include="Goddess.cpp" />
     <ClCompile Include="Items.cpp" />
@@ -98,6 +99,7 @@
     <ClInclude Include="BPanel.h" />
     <ClInclude Include="Cola.h" />
     <ClInclude Include="Dezeniman.h" />
+    <ClInclude Include="Explosion.h" />
     <ClInclude Include="Famicom.h" />
     <ClInclude Include="Goddess.h" />
     <ClInclude Include="Items.h" />
