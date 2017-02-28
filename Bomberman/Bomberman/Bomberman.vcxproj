@@ -84,7 +84,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bomb.cpp" />
     <ClCompile Include="Bomberman.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="HardBlocks.cpp" />
+    <ClCompile Include="MapObjects.cpp" />
+    <ClCompile Include="SoftBlocks.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="HardBlocks.h" />
+    <ClInclude Include="MapObjects.h" />
+    <ClInclude Include="SoftBlocks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
