@@ -10,5 +10,8 @@ public:
 	bool softPass = false;
 
 	void move(double speed);
+private:
+	//softPass = false;
+//	void move(double);
 };
 

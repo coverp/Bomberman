@@ -1,38 +1,59 @@
-﻿Build started 3/2/2017 8:59:02 AM.
-     1>Project "C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/2/2017 3:05:48 PM.
+     1>Project "C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ballom.cpp Bomberman.cpp Character.cpp Dahl.cpp Doria.cpp Enemy.cpp Minvo.cpp Object.cpp ONeal.cpp Ovape.cpp Pass.cpp Player.cpp Pontan.cpp
-         Pontan.cpp
-         Player.cpp
-         Pass.cpp
-         Ovape.cpp
-         ONeal.cpp
-         Object.cpp
-         Minvo.cpp
-         Enemy.cpp
-         Doria.cpp
-         Dahl.cpp
-         Character.cpp
-         Bomberman.cpp
-         Ballom.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BombUp.cpp Bombpass.cpp Detonator.cpp Flamepass.cpp Flames.cpp Mystery.cpp PowerUps.cpp SpeedUp.cpp Wallpass.cpp
+         BombUp.cpp
+         Generating Code...
+         Compiling...
+         Wallpass.cpp
+         SpeedUp.cpp
+         PowerUps.cpp
+         Mystery.cpp
+         Flames.cpp
+         Flamepass.cpp
+         Detonator.cpp
+         Bombpass.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.4.2\lib" "sfml-window.lib" "sfml-system.lib" "sfml-graphics.lib" "sfml-audio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.lib" /MACHINE:X86 Debug\Ballom.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.4.2\lib" "sfml-window.lib" "sfml-system.lib" "sfml-graphics.lib" "sfml-audio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.lib" /MACHINE:X86 Debug\Ballom.obj
+         Debug\Bomb.obj
          Debug\Bomberman.obj
+         Debug\Bombpass.obj
+         Debug\BombUp.obj
+         Debug\BPanel.obj
          Debug\Character.obj
+         Debug\Cola.obj
          Debug\Dahl.obj
+         Debug\Detonator.obj
+         Debug\Dezeniman.obj
+         Debug\Door.obj
          Debug\Doria.obj
          Debug\Enemy.obj
+         Debug\Explosion.obj
+         Debug\Famicom.obj
+         Debug\Flamepass.obj
+         Debug\Flames.obj
+         Debug\Goddess.obj
+         Debug\HardBlocks.obj
+         Debug\Items.obj
+         Debug\MapObjects.obj
          Debug\Minvo.obj
+         Debug\Mystery.obj
+         Debug\Nakamoto.obj
          Debug\Object.obj
          Debug\ONeal.obj
          Debug\Ovape.obj
          Debug\Pass.obj
          Debug\Player.obj
          Debug\Pontan.obj
-         Bomberman.vcxproj -> C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.exe
-     1>Done Building Project "C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" (Build target(s)).
+         Debug\PowerUps.obj
+         Debug\SoftBlocks.obj
+         Debug\Special.obj
+         Debug\SpeedUp.obj
+         Debug\Wallpass.obj
+         Bomberman.vcxproj -> C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.exe
+     1>Done Building Project "C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.85
+Time Elapsed 00:00:04.22
