@@ -1,4 +1,5 @@
 #pragma once
+#include"Items.h"
 class PowerUps :
 	public Items
 {
@@ -8,7 +9,7 @@ public:
 
 	void spawnedEnemy(double, double);
 	void pickedUp();
-	void die();
+	void die() {}
 
 private:
 	int type;
