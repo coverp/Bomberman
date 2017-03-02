@@ -102,9 +102,11 @@
     <ClCompile Include="Famicom.cpp" />
     <ClCompile Include="Flamepass.cpp" />
     <ClCompile Include="Flames.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Goddess.cpp" />
     <ClCompile Include="HardBlocks.cpp" />
     <ClCompile Include="Items.cpp" />
+    <ClCompile Include="Level.cpp" />
     <ClCompile Include="MapObjects.cpp" />
     <ClCompile Include="Minvo.cpp" />
     <ClCompile Include="Mystery.cpp" />
@@ -139,9 +141,11 @@
     <ClInclude Include="Famicom.h" />
     <ClInclude Include="Flamepass.h" />
     <ClInclude Include="Flames.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Goddess.h" />
     <ClInclude Include="HardBlocks.h" />
     <ClInclude Include="Items.h" />
+    <ClInclude Include="Level.h" />
     <ClInclude Include="MapObjects.h" />
     <ClInclude Include="Minvo.h" />
     <ClInclude Include="Mystery.h" />
