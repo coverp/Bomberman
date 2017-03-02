@@ -1,4 +1,6 @@
 #pragma once
+#include"Items.h"
+
 class Bomb :
 	public Items
 {

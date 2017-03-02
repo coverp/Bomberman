@@ -10,7 +10,7 @@ Ballom::~Ballom()
 {
 }
 
-void Ballom::move(double)
+void Ballom::move(double speed)
 {
 
 }

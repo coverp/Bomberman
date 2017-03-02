@@ -7,8 +7,11 @@ public:
 	Ballom();
 	~Ballom();
 
-private:
 	bool softPass = false;
-	void move(double);
+
+	void move(double speed);
+private:
+	//softPass = false;
+//	void move(double);
 };
 
