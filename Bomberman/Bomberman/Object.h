@@ -4,6 +4,7 @@ class Object
 {
 public:
 	Object();
+	Object(std::string, int, int, int);
 	~Object();
 
 private:
@@ -11,6 +12,6 @@ private:
 	std::string sprite;
 	virtual void die() {}
 	void collision(Object*) {}
-
+	void loadSprite();
 };
 
