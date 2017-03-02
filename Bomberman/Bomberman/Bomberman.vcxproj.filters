@@ -19,30 +19,35 @@
       <Filter>Source Files</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="MapObjects.cpp">
+=======
+    <ClCompile Include="Items.cpp">
+>>>>>>> origin/Class-Framework
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SoftBlocks.cpp">
+    <ClCompile Include="Special.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HardBlocks.cpp">
+    <ClCompile Include="Nakamoto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Door.cpp">
+    <ClCompile Include="Cola.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bomb.cpp">
+    <ClCompile Include="Dezeniman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PowerUps.cpp">
+    <ClCompile Include="Famicom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BombUp.cpp">
+    <ClCompile Include="Goddess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Flames.cpp">
+    <ClCompile Include="BPanel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="SpeedUp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -95,10 +100,14 @@
     </ClCompile>
     <ClCompile Include="Pontan.cpp">
 >>>>>>> refs/remotes/origin/master
+=======
+    <ClCompile Include="Explosion.cpp">
+>>>>>>> origin/Class-Framework
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <ClInclude Include="MapObjects.h">
       <Filter>Header Files</Filter>
@@ -116,29 +125,33 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PowerUps.h">
+=======
+    <ClInclude Include="Items.h">
+>>>>>>> origin/Class-Framework
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BombUp.h">
+    <ClInclude Include="Special.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Flames.h">
+    <ClInclude Include="Nakamoto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SpeedUp.h">
+    <ClInclude Include="Cola.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Wallpass.h">
+    <ClInclude Include="Dezeniman.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Detonator.h">
+    <ClInclude Include="Famicom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Bombpass.h">
+    <ClInclude Include="Goddess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Flamepass.h">
+    <ClInclude Include="BPanel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="Mystery.h">
 =======
     <ClInclude Include="Object.h">
@@ -176,6 +189,9 @@
     </ClInclude>
     <ClInclude Include="Pontan.h">
 >>>>>>> refs/remotes/origin/master
+=======
+    <ClInclude Include="Explosion.h">
+>>>>>>> origin/Class-Framework
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

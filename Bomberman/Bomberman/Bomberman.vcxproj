@@ -85,23 +85,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Bomb.cpp" />
+=======
+>>>>>>> origin/Class-Framework
     <ClCompile Include="Bomberman.cpp" />
-    <ClCompile Include="Bombpass.cpp" />
-    <ClCompile Include="BombUp.cpp" />
-    <ClCompile Include="Detonator.cpp" />
-    <ClCompile Include="Door.cpp" />
-    <ClCompile Include="Flamepass.cpp" />
-    <ClCompile Include="Flames.cpp" />
-    <ClCompile Include="HardBlocks.cpp" />
-    <ClCompile Include="MapObjects.cpp" />
-    <ClCompile Include="Mystery.cpp" />
-    <ClCompile Include="PowerUps.cpp" />
-    <ClCompile Include="SoftBlocks.cpp" />
-    <ClCompile Include="SpeedUp.cpp" />
-    <ClCompile Include="Wallpass.cpp" />
+    <ClCompile Include="BPanel.cpp" />
+    <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="Dezeniman.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="Famicom.cpp" />
+    <ClCompile Include="Goddess.cpp" />
+    <ClCompile Include="Items.cpp" />
+    <ClCompile Include="Nakamoto.cpp" />
+    <ClCompile Include="Special.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="Bomb.h" />
     <ClInclude Include="Bombpass.h" />
     <ClInclude Include="BombUp.h" />
@@ -145,6 +145,17 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="Pontan.h" />
 >>>>>>> refs/remotes/origin/master
+=======
+    <ClInclude Include="BPanel.h" />
+    <ClInclude Include="Cola.h" />
+    <ClInclude Include="Dezeniman.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="Famicom.h" />
+    <ClInclude Include="Goddess.h" />
+    <ClInclude Include="Items.h" />
+    <ClInclude Include="Nakamoto.h" />
+    <ClInclude Include="Special.h" />
+>>>>>>> origin/Class-Framework
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
