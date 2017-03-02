@@ -84,7 +84,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ballom.cpp" />
     <ClCompile Include="Bomberman.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Dahl.cpp" />
+    <ClCompile Include="Doria.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Minvo.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ONeal.cpp" />
+    <ClCompile Include="Ovape.cpp" />
+    <ClCompile Include="Pass.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Pontan.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ballom.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Dahl.h" />
+    <ClInclude Include="Doria.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Minvo.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ONeal.h" />
+    <ClInclude Include="Ovape.h" />
+    <ClInclude Include="Pass.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Pontan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
