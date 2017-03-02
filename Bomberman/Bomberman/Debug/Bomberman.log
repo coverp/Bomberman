@@ -1,13 +1,28 @@
-﻿Build started 2/28/2017 2:58:02 PM.
-     1>Project "C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/2/2017 2:42:57 PM.
+     1>Project "C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bomberman.cpp
-         Bomberman.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.4.2\lib" "sfml-window.lib" "sfml-system.lib" "sfml-graphics.lib" "sfml-audio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.lib" /MACHINE:X86 Debug\Bomberman.obj
-         Bomberman.vcxproj -> C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Debug\Bomberman.exe
-     1>Done Building Project "C:\Users\17phc01\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BPanel.cpp Cola.cpp Dezeniman.cpp Explosion.cpp Famicom.cpp Goddess.cpp Items.cpp Nakamoto.cpp Special.cpp
+         Special.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         Nakamoto.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         Items.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         Goddess.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         Famicom.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         Explosion.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\explosion.h(4): error C2504: 'Object' : base class undefined
+         Dezeniman.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         Cola.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         BPanel.cpp
+     1>c:\users\17lmr02\documents\github\bomberman\bomberman\bomberman\items.h(4): error C2504: 'Object' : base class undefined
+         Generating Code...
+     1>Done Building Project "C:\Users\17lmr02\Documents\GitHub\Bomberman\Bomberman\Bomberman\Bomberman.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:03.20
+Time Elapsed 00:00:00.53
