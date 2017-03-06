@@ -37,6 +37,7 @@
     <ClCompile Include="Pass.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Pontan.cpp" />
+    <ClCompile Include="Game.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ballom.h" />
@@ -74,5 +75,6 @@
     <ClInclude Include="Pass.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Pontan.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
 </Project>
