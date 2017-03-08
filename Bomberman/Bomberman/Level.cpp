@@ -31,11 +31,11 @@ void Level::setPowerUp()
 	if (level == 1 || level == 7 || level == 15 || level == 27 || level == 38)
 		powerUp = 1;//flame	
 	else if (level == 2 || level == 5 || level == 6 || level == 11 
-		|| level == 12 || level == 17 || level == 19 || level = 23 || level == 28 
+		|| level == 12 || level == 17 || level == 19 || level == 23 || level == 28 
 		|| level == 32)
 		powerUp = 2;//bombs
-	else if (level == 3 || level = 8 || level == 13 || level == 20 || level == 22 
-		|| level == 24 || level == 29 || level = 33 || level == 37 || level == 41 
+	else if (level == 3 || level == 8 || level == 13 || level == 20 || level == 22 
+		|| level == 24 || level == 29 || level == 33 || level == 37 || level == 41 
 		|| level == 44 || level == 48)
 		powerUp = 3;//detonator
 	else if (level == 4)
@@ -84,5 +84,79 @@ void Level::setNumofSoftBlocks()
 
 void Level::setNumOfEnemies()
 {
+	return;
+}
 
+
+void Level::enemyDefeated()
+{
+	enemiesDefeated++;
+}
+
+
+void Level::blockBroke()
+{
+	softBlocksBroken++;
+}
+
+
+int* Level::getEnemies()
+{
+	return &enemies[level - 1][0];
+}
+
+
+int Level::getLevel()
+{
+	return level;
+}
+
+int Level::getPowerUp()
+{
+	return powerUp;
+}
+
+int Level::getBonusItem()
+{
+	return bonusItem;
+}
+
+
+int Level::getEnemiesDefeated()
+{
+	return enemiesDefeated;
+}
+
+
+int Level::getEnemiesSpawned()
+{
+	return enemiesSpawned;
+}
+
+bool Level::getRemoteUsed()
+{
+	return remoteUsed;
+}
+
+
+int Level::getChain()
+{
+	return chain;
+}
+
+
+void Level::setChain(int length)
+{
+	chain = length;
+}
+
+int Level::getSoftBlocksBroken()
+{
+	return softBlocksBroken;
+}
+
+
+int Level::getSoftBlockSpawned()
+{
+	return softBlocksSpawned;
 }

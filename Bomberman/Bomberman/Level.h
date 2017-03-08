@@ -8,7 +8,20 @@ public:
 	void setPowerUp();
 	void setBonusItem();
 	void setNumofSoftBlocks();
-	
+	void enemyDefeated();
+	void blockBroke();
+	int* getEnemies();
+	int getLevel();
+	int getPowerUp();
+	int getBonusItem();
+	int getEnemiesDefeated();
+	int getEnemiesSpawned();
+	bool getRemoteUsed();
+	int getChain();
+	void setChain(int);
+	int getSoftBlocksBroken();
+	int getSoftBlockSpawned();
+
 private:
 	int level;
 	int numBallom;
@@ -22,12 +35,12 @@ private:
 	int powerUp;
 	int bonusItem;
 	int enemiesDefeated;//number of enemies killed this stage
-	int enemiesSpawed;//enemies spawed in the stage
+	int enemiesSpawned;//enemies spawed in the stage
 	//Timer walkTime;//how long the d-pad has been pressed down for
 	int chain;//how many explosions have been caused by other explosions
 	bool remoteUsed;
 	int softBlocksBroken;//tracks the number of soft blocks broken
 	int softBlocksSpawned;//tracks the number of soft blocks spawned
-
+	int enemies[50][8];
 };
 
