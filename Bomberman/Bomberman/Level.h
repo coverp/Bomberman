@@ -21,6 +21,7 @@ public:
 	void setChain(int);
 	int getSoftBlocksBroken();
 	int getSoftBlockSpawned();
+	void setLevelEnemies();
 
 private:
 	int level;
@@ -41,6 +42,8 @@ private:
 	bool remoteUsed;
 	int softBlocksBroken;//tracks the number of soft blocks broken
 	int softBlocksSpawned;//tracks the number of soft blocks spawned
-	int enemies[50][8];
+	int enemyArray[8][60];
+	int levelEnemies[8];
+
 };
 
