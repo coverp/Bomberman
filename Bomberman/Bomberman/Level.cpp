@@ -66,9 +66,11 @@ void Level::setBonusItem()
 	else if (level == 4 || level == 12 || level == 20 || level == 28 || level == 36
 		|| level == 44)
 		bonusItem = 3;//Cola
-	else if (level == 3 || level == 11 || level == 19 || level == 27 || level == 35 || level == 43)
+	else if (level == 3 || level == 11 || level == 19 || level == 27 || level == 35 
+		|| level == 43)
 		bonusItem = 4;//Famicom
-	else if (level == 2 || level == 10 || level == 18 || level == 26 || level == 34 || level == 42 || level == 50)
+	else if (level == 2 || level == 10 || level == 18 || level == 26 || level == 34 
+		|| level == 42 || level == 50)
 		bonusItem = 5;//Nakamotto
 	else
 		bonusItem = 6;//Dezeniman
