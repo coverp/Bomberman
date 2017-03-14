@@ -22,7 +22,8 @@ public:
 	int getSoftBlocksBroken();
 	int getSoftBlockSpawned();
 	void setLevelEnemies();
-
+	void levelFinished();
+	bool isFinished();
 private:
 	int level;
 	int numBallom;
@@ -42,8 +43,8 @@ private:
 	bool remoteUsed;
 	int softBlocksBroken;//tracks the number of soft blocks broken
 	int softBlocksSpawned;//tracks the number of soft blocks spawned
-	int enemyArray[8][60];
+	int enemyArray[8][50];
 	int levelEnemies[8];
-
+	bool finished;
 };
 

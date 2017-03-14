@@ -10,6 +10,7 @@ Level::Level(int newLevel)
 	setNumOfEnemies();
 	softBlocksBroken = 0;
 	enemiesDefeated = 0;
+	finished = false;
 	int enemyArray[8][50] =
 	{
 		{ 6, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -28,6 +29,19 @@ Level::Level(int newLevel)
 Level::~Level()
 {
 }
+
+
+void Level::levelFinished()
+{
+	finished = true;
+}
+
+
+bool Level::isFinished()
+{
+	return finished;
+}
+
 
 void Level::setPowerUp()
 {
