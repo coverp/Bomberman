@@ -107,7 +107,7 @@ void Level::blockBroke()
 
 int* Level::getEnemies()
 {
-	
+	return levelEnemies;
 }
 
 
@@ -169,5 +169,9 @@ int Level::getSoftBlockSpawned()
 
 void Level::setLevelEnemies()
 {
-	
+	for (int i = 0; i < 8; i++)
+	{
+		levelEnemies[i] = enemyArray[i][level];
+	}
+
 }
