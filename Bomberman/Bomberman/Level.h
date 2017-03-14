@@ -1,4 +1,6 @@
 #pragma once
+#include <vector>
+#include "Object.h"
 class Level
 {
 public:
@@ -24,6 +26,7 @@ public:
 	void setLevelEnemies();
 	void levelFinished();
 	bool isFinished();
+	Object* getLevelObejcts();
 private:
 	int level;
 	int numBallom;
@@ -46,5 +49,6 @@ private:
 	int enemyArray[8][50];
 	int levelEnemies[8];
 	bool finished;
+	std::vector<Object*> levelObjects;
 };
 

@@ -1,7 +1,7 @@
 #pragma once
 #include "Enemy.h"
 class Ballom :
-	protected Enemy
+	public Enemy
 {
 public:
 	Ballom();

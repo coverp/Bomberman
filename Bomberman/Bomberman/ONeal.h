@@ -1,7 +1,7 @@
 #pragma once
 #include "Enemy.h"
 class ONeal :
-	protected Enemy
+	public Enemy
 {
 public:
 	ONeal();

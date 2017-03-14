@@ -1,7 +1,7 @@
 #pragma once
 #include "Enemy.h"
 class Minvo :
-	protected Enemy
+	public Enemy
 {
 public:
 	Minvo();

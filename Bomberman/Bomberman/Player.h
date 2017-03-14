@@ -1,7 +1,7 @@
 #pragma once
 #include "Character.h"
 class Player :
-	protected Character
+	public Character
 {
 public:
 	Player();
