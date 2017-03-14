@@ -1,15 +1,20 @@
 #pragma once
 #include<string>
+#include <SFML/Graphics.hpp>
 class Object
 {
 public:
 	Object();
-	Object(std::string, int, int, int);
+	Object(std::string, float, float, float);
 	~Object();
 
+	sf::Sprite getSprite();
+
 private:
-	double xCoord, yCoord, size;
-	std::string sprite;
+	float xCoord, yCoord, size;
+	std::string spriteName;
+	sf::Texture texture;
+	sf::Sprite sprite;
 	virtual void die() {}
 	void collision(Object*) {}
 	void loadSprite();
