@@ -1,7 +1,7 @@
 #pragma once
 #include "Object.h"
 class Character :
-	protected Object
+	public Object
 {
 public:
 	Character();

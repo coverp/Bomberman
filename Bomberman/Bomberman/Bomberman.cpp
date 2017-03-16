@@ -1,11 +1,14 @@
 //#include "stdafx.h"
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#include "Game.h"
+
 
 int main()
 {
-	Game game;
-	int code=game.run();
-	return code;
+	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+
+
+
+
+	return 0;
 }

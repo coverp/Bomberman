@@ -1,7 +1,7 @@
 #pragma once
 #include "Enemy.h"
 class Ovape :
-	protected Enemy
+	public Enemy
 {
 public:
 	Ovape();
